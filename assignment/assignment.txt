@@ -1,0 +1,165 @@
+Task-1. Write a MIPS assembly program that
+does the following:
+
+
+           
+(i) Ask the user to enter the number of
+rows R and read it.
+
+
+           
+(ii) Ask the user to enter the number of columns C and read it.
+
+
+           
+(iii) Ask the user to enter a two-dimensional array of RxC characters. Elements
+of a single row should be separated by a single space and each row is read in a
+new line.
+
+
+           
+(iv) Print the entered array in a new line (prints its entered
+dimensions as well).
+
+
+           
+(v) Ask the user to enter two row numbers
+
+
+           
+(vi) Exchange the two entered rows and print the array after the exchange.
+
+
+           
+ 
+
+
+A sample execution of the
+program is shown below:
+
+
+Enter number of rows in the array: 3
+
+
+Enter number of columns in the array: 5
+
+
+Enter an array of 3x5 characters:
+
+
+0 1 2 3 4
+
+
+5 6 7 8 9
+
+
+a b c d e
+
+
+The entered 3x5 array is:
+
+
+0 1 2 3 4
+
+
+5 6 7 8 9
+
+
+a b c d e
+
+
+Enter a row number: 0
+
+
+Enter another row number: 2
+
+
+The array after exchanging Row 0 and Row 2 is:
+
+
+a b c d e
+
+
+5 6 7 8 9
+
+
+0 1 2 3 4
+
+
+ 
+
+
+Task-2:  Write a MIPS assembly
+program to perform signed multiplication
+of  32-bit numbers. The program should ask the user to enter two integers and
+then display the result of multiplication. If the result cannot fit in 32-bit
+then the program should indicate that there is an overflow.
+
+
+
+ Test your program using the following
+numbers:
+
+
+
+1.  -1 x -1
+
+2. 100 x -2
+
+3. 0 x 10
+
+4. 2147483647 x 2
+
+
+
+ A sample execution of the program is
+shown below:
+
+
+
+ Enter the multiplier: 100
+
+Enter the multiplicand: -2
+
+Result of multiplication = -200
+
+
+
+
+
+
+Task-3: Write a MIPS assembly program to
+perform signed division of 32-bit numbers. The program should ask the user to enter two integers and
+then display the result of division (display both the quotient and remainder). Test your program using the
+following numbers:
+
+
+
+1. +17 ÷ +3
+
+2. +17 ÷ -3
+
+3. -17 ÷ +3
+
+4. -17 ÷ -3
+
+
+
+A sample execution of the program is shown below:
+
+
+
+Enter the dividend: 17
+
+
+
+Enter the divisor: -3
+
+
+
+Result of division: Quotient = -5 Remainder = 2
+
+
+
+
+**For each task the file name must be <task_no>.asm. Zip all the files and name the file as <your_roll>.zip. Submit the zip file.
